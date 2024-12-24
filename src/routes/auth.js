@@ -8,12 +8,12 @@ const router = express.Router();
 router.post('/signup', signup);
 
 // Login Route
-router.post('/login', login);
+// router.post('/login', login);
 
-router.post('/logout', authenticate, (req, res) => {
-    // Remove token from the client's storage or blacklisting mechanism
-    // On the server side, you might delete the token from a database or blacklist it
-    res.status(200).json({ message: "Logged out successfully" });
-});
+// router.post('/logout', authenticate, (req, res) => {
+//     // Remove token from the client's storage or blacklisting mechanism
+//     // On the server side, you might delete the token from a database or blacklist it
+//     res.status(200).json({ message: "Logged out successfully" });
+// });
 
 module.exports = router;
