@@ -1,0 +1,15 @@
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore .env file for sensitive data
+.env
+
+# Optional: Ignore log files (if you have any)
+*.log
+
+# Optional: Ignore the build directory (if you have any build artifacts)
+build/
+
+# Optional: Ignore temporary files from editors (e.g., VS Code)
+.vscode/
+.idea/
